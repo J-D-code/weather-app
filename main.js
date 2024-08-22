@@ -1,6 +1,6 @@
       const searchBox = document.querySelector("#search");
       const button = document.getElementById(btn);
-      const apiKey = "1b150c6eced28badb7bd1cc37e9841b4";
+      const apiKey = "key";
       const weatherIcon = document.querySelector(".weather-icon");
       async function checkWeather(search) {
         const response = await fetch(
